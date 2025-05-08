@@ -1,0 +1,25 @@
+.container{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    border: 1px solid black;
+}
+.content{
+    width: 150px;
+    height: 150px;
+    
+    padding: 1em;
+    font-weight: 700;
+    color:black;
+    text-align:center;
+    border: 5px solid black;
+    border-radius: 1px;
+    flex-grow: 1;
+    fle
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
